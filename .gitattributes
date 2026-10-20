@@ -1,0 +1,28 @@
+# Note:
+# This file may be overwritten by LibrePCB when upgrading the project to a newer
+# version. So, if you make any changes in this file, you should review/correct
+# it after an upgrade. If you think that something is missing here, please open
+# a new issue on our issue tracker: https://github.com/LibrePCB/LibrePCB/issues
+
+# Disable automatic end-of-line conversion for all files. This is to prevent Git
+# from (silently) modifying files which are read and written by LibrePCB. Do not
+# remove this line (or file) as is could lead into annoying and wrong behavior!
+* -text
+# Hide LibrePCB tool-generated files from GitHub language statistics.
+# Linguist misidentifies S-expression syntax as Answer Set Programming or Lambdapi.
+
+*.lp linguist-vendored
+*.lpp linguist-vendored
+*.lpb linguist-vendored
+*.lpc linguist-vendored
+*.lpf linguist-vendored
+*.lps linguist-vendored
+*.lpl linguist-vendored
+.librepcb-* linguist-vendored
+
+boards/** linguist-vendored
+circuit/** linguist-vendored
+library/** linguist-vendored
+project/** linguist-vendored
+schematics/** linguist-vendored
+resources/** linguist-vendored
